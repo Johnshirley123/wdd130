@@ -1,6 +1,22 @@
 main {
     max-width: 840px;
 }
+
+nav {
+    width: 114rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: steelblue;
+    color: #333;
+    
+}
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -10,6 +26,10 @@ aside {
     color: #333;
     text-align: center;
 
+}
+
+h1 {
+    color: steelblue;
 }
 
 main img {
