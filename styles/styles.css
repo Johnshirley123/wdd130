@@ -1,5 +1,7 @@
 main {
-    max-width: 840px;
+    
+    margin: 1rem;
+    grid-column: 2/3;
 }
 
 * {
@@ -14,14 +16,20 @@ body {
 }
 
 nav {
-    padding: 10px;
+    padding: 15px;
     background-color: steelblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 nav a {
-    color: white;
-    padding: 10px;
+    color: #fff;
+    padding: 0.5px;
     display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
@@ -33,6 +41,8 @@ aside {
     width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
     
 }
 
@@ -58,11 +68,14 @@ p {
     margin: 1rem;
 }
 
+
+
 footer {
     margin-top: 1px;
     border-top: 1px solid #000;
     text-align: center;
 }
+
 
 /* Class Selectors */
 .box {
@@ -77,4 +90,8 @@ footer {
     padding-left: 2rem;
 }
 
+header, .grid, footer {
+    display: grid;
+    align-items: center;
+}
 
