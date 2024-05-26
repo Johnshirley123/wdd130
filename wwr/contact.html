@@ -32,38 +32,40 @@
             </div>
             
             <p>Our Great Employees</p>
-            <img src="images/cup.jpg" alt="One happy Employee" width="190">
-            <figure>Employees love working here.</figure>
-            <img src="images/smile.jpg" alt="One happy Employee" width="190">
-            <figure>Employees love working here.</figure>
-            <img src="images/employee.jpg" alt="One happy Employee" width="190">
-            <figure>Employees love working here.</figure>
-           
+    
+            <div class="images">
+                <div>It's a blast working with us!</div>
+                <img src="images/cup.jpg" alt="employeepic" width="190">
+                <div> We celebrate your accomplishments!</div>
+                <img src="images/smile.jpg" alt="employeepic" width="190">
+                <div>We ensure a positive work environment!</div>
+                <img src="images/employee.jpg" alt="employeepic" width="190"> 
+            </div>
+    
 
             <form action="/action_page.php">
-                <label for="Username">Username</label><br>
-                <input type="text" id="Username" name="Username"><br><br>
-                
-
-                <label for="Email">Email Address</label><br>
-                <input type="text" id="Email" name="Email"><br><br>
+                <p> Newsletter</p>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Please enter your email:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <p> How may we help you today?</p>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="css">General Inquiry</label><br>
+                <input type="radio" id="css" name="fav_language">
+                <label for="javascript">Reservation Question</label><br>
+                <input type="radio" id="javascript" name="fav_language">
+                <label for="newsletter">Website Suggestion</label><br>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+                <input type="submit" value="Submit">
             </form>
-                
-
-
+        
         </main>
             <footer>
-                <nav class="sociallinks">
-                    <a href="https://www.facebook.com">
-                        <img src="images/facebook.webp" alt="Facebook">
-                    </a>
-                    <a href="https://twitter.com">
-                        <img src="images/x.webp" alt="X">
-                    </a>
-                    <a href="https://instagram.com">
-                        <img src="images/instagram.webp" alt="Instagram">
-                    </a>
-                </nav>
-            </footer>
+                <p>&copy; 2024, WhiteWater Adventures, John Shirley</p>
+            </footer>   
     </body>
 </html>      
