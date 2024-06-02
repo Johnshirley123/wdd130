@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="styles/quiz.css">
+        <title>Quiz Form</title>
+        <meta name="description" content="This is the quiz page.">
+        <meta name="author" content="John Shirley">
+    </head>
+    
+<body>
+
+    <div class="grid">
+        <main>
+        <h1>Quiz</h1>
+        <form action="/action_page.php">
+            <label for="q1"><b>1.</b>What does HTML stand for?</label><br>
+            <input type="text" id="q1" name="q1"><br><br>
+            <input type="submit" value="Submit">
+
+
+          
+        
+            <label for="q2"><b>2.</b>Choose a formatting tag</label>
+            <select id="q2" name="q2">
+              <option value="Select one">Select one</option> 
+              <option value="em">em</option>
+              <option value="HTML">HTML</option>
+              <option value="CSS">CSS</option>
+              <option value="bold">bold</option>
+            </select>
+            <input type="submit">
+    
+
+
+        <p><b>3.</b> What are three HTML tags?</p>
+            <label for="q3"></label>
+            <textarea name="q3" id="q3" rows="10" cols="30"><html></html>,<head></head>,<title></title></textarea>
+            <br><br>
+            <input type="submit">
+        
+
+
+        
+            <label for="q4"><b>4.</b>How many types of HTML tags are there?</label><br>
+            <input type="number" id="q4" name="q4"><br><br>
+            <input type="submit" value="Submit">
+
+        </form>
+
+        <button type="button" onclick="alert('Correct!')">Submit Quiz!</button>
+
+        </main>
+    </div>
+</body>
+
+</html>
+        
+       
