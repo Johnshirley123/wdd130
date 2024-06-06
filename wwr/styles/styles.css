@@ -1,3 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt:regular);
+
+
+:root {
+    --heading-font: 'Rock Salt', serif;
+    --paragraph-font: 'Roboto', serif;
+
+    --primary-color: #5b5941;
+    --secondary-color: #87B6A7;
+    --accent1-color: #F7D08A;
+    --accent2-color: #E3F09B;
+
+    --headline-color-on-white: #0f2636;
+    --headline-color-on-color: white;
+    --paragraph-color-on-white: #122b3d;
+    --paragraph-color-on-color: white;
+    --paragraph-background-color: #193346;
+
+    --nav-background-color: #396E94;
+    --nav-link-color: #D4AC0D;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #396E94;
+}
+
+body{
+    background-color: #F7D08A;
+
+}
+
 main {
     
     margin: 1rem;
@@ -35,6 +65,8 @@ nav a {
 h1 {
     color: steelblue;
     padding: .5rem;
+    display: grid;
+    align-items: center;
 }
 
 aside {
